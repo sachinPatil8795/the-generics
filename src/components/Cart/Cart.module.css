@@ -1,81 +1,97 @@
 /* Cart.css */
 
 .cart {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .cart-header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .cart-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-    margin-bottom: 10px;
-  }
-  
-  .item-details {
-    flex: 1;
-    margin-left: 10px;
-  }
-  
-  .item-title {
-    font-weight: bold;
-  }
-  
-  .item-price {
-    font-size: 18px;
-  }
-  
-  .item-quantity {
-    font-size: 18px;
-  }
-  
-  .total {
-    margin-top: 20px;
-    text-align: right;
-  }
-  
-  .delete-button {
-    font-size: 18px;
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-  }
+  width: 50%;
+  height: 50%;
+  margin: 2rem auto;
+}
 
-  .btn button {
-    font-size: large;
-    border: none;
-    margin: auto 1rem;
-    padding: 10px 20px;
-    background-color: dodgerblue;
-    border-radius: 5px;
-    color: whitesmoke;
+.cart-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
 
-  .btn button:hover {
-    background-color: midnightblue;
-  }
+.cart-item img {
+  max-width: 50%;
+}
 
-  .btn button:active {
-    transform: scale(1.1);
-  }
-  
+.item-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.item-title {
+  font-weight: lighter;
+}
+
+.item-price {
+  font-size: 18px;
+}
+
+.item-quantity {
+  font-size: 18px;
+}
+
+.total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.delete-button {
+  font-size: large;
+  border: none;
+  margin: auto 1rem;
+  padding: 8px 15px;
+  background-color: rgb(183, 41, 41);
+  border-radius: 5px;
+  color: whitesmoke;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.delete-button:hover{
+
+  background-color: rgb(216, 31, 31);
+}
+.delete-button:active {
+  transform: scale(1.1);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.btn button {
+  font-size: large;
+  border: none;
+  margin: auto 1rem;
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color: whitesmoke;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: midnightblue;
+}
+
+.btn button:active {
+  transform: scale(1.1);
+}

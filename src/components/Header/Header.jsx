@@ -11,7 +11,7 @@ const Header = (props) => {
           <li className={classes.active}>Store</li>
           <li>About us</li>
         </ul>
-        <HeaderCartButton />
+        <HeaderCartButton cartItems={props.cartItems} />
       </header>
       <div className={classes.title}>
         <h1>The Generics</h1>

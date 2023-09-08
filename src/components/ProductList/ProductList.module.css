@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1.5px solid dodgerblue;
   border-radius: 10px;
 }
 
