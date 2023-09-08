@@ -1,0 +1,64 @@
+.music-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+.container {
+  margin: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1.5px solid dodgerblue;
+  border-radius: 10px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  align-items: center;
+}
+
+.product img {
+  margin: 1rem auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.product h2,
+p {
+  font-size: 1.15rem;
+  font-family: cursive;
+  margin: 0.5rem auto;
+}
+
+.product button {
+  font-size: large;
+  width: 35%;
+  margin: 0.9rem;
+  padding: 5px 15px;
+  border: none;
+  color: aliceblue;
+  background-color: #008cba;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* transform: scale(0.98); */
+}
+
+.product button:hover {
+  background-color: #149bc7;
+}
+.product button:active {
+  transform: scale(1.1);
+}
