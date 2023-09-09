@@ -1,24 +1,24 @@
 .music-title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   text-align: center;
   margin: 3rem auto;
 }
 .container {
-  margin: 2.5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-radius: 10px;
 }
 
 .product {
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  margin: 2rem auto;
+  margin: 3rem auto;
   align-items: center;
 }
 
@@ -41,7 +41,7 @@ p {
 
 .product button {
   font-size: large;
-  width: 35%;
+  width: 20%;
   margin: 0.9rem;
   padding: 5px 15px;
   border: none;

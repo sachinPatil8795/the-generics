@@ -1,6 +1,6 @@
 /* Header.module.css */
 header {
-  background-color: #1f1f1f;
+  background-color: #131313;
   color: white;
   padding: 10px;
   display: flex;
@@ -13,18 +13,21 @@ ul {
   justify-content: space-around;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
-li {
+li a {
+  color: whitesmoke;
   font-size: large;
   margin: 0 20px;
   text-transform: uppercase;
+  text-decoration: none;
 }
-li:hover {
+li a:hover {
   color: dodgerblue; /* Hover effect */
 }
 
-.active {
+li.active a {
   color: dodgerblue;
 }
 

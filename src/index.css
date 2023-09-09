@@ -13,8 +13,8 @@ html {
 body {
   margin: 0;
   /* background-color: #0C2340; */
-  /* background-color: gainsboro; */
-  background-color: gainsboro;
-  /* color: whitesmoke; */
+  /* background-color: rgb(40, 45, 66); */
+  background-color: rgb(34, 37, 48);
+  color: whitesmoke;
 }
 
