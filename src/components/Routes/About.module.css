@@ -1,0 +1,41 @@
+/* About.module.css */
+
+.about {
+  background-color: #f8f8f8;
+  background-image: url("band6.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px 0;
+  height: 100vh;
+  color: whitesmoke;
+}
+
+.container {
+  max-width: 800px;
+  margin: 10rem auto;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  padding: 20px;
+  border-radius: 10px; /* Add some styling */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+}
+
+.container img {
+  width: 30%;
+  margin-bottom: 2rem;
+  border-radius: 500px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

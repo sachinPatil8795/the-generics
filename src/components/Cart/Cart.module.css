@@ -5,6 +5,7 @@
   height: 50%;
   margin: 2rem auto;
   color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .cart-header {
@@ -46,6 +47,7 @@
 .total {
   margin-top: 20px;
   text-align: right;
+  font-weight: bold;
 }
 
 .delete-button {
@@ -90,7 +92,7 @@
 }
 
 .btn button:hover {
-  background-color: midnightblue;
+  background-color: rgb(40, 94, 202);
 }
 
 .btn button:active {

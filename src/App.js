@@ -2,55 +2,17 @@
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
-import ProductList from "./components/ProductList/ProductList";
 import Cart from "./components/Cart/Cart";
 import { CartContext } from "./store/cart-context";
 import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Routes/Home";
 import Store from "./components/Routes/Store";
-import AboutUs from "./components/Routes/AboutUs";
+import About from "./components/Routes/About";
 
 export const ModalContext = React.createContext();
 
-// const storeList = [
-//   {
-//     title: "Colors",
-//     price: 12.99,
-//     imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
-//     quantity: 2,
-//   },
-//   {
-//     title: "Black and White Colors",
-//     price: 14.99,
-//     imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
-//     quantity: 8,
-//   },
-//   {
-//     title: "Yellow and Black Colors",
-//     price: 9.99,
-//     imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%203.png",
-//     quantity: 6,
-//   },
-//   {
-//     title: "Blue Color",
-//     price: 19.99,
-//     imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%204.png",
-//     quantity: 4,
-//   },
-//   {
-//     title: "Coffee",
-//     price: 9.99,
-//     imageUrl: "	https://prasadyash2411.github.io/ecom-website/img/Cofee.png",
-//     quantity: 4,
-//   },
-//   {
-//     title: "T-Shirt",
-//     price: 29.99,
-//     imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Shirt.png",
-//     quantity: 4,
-//   },
-// ];
+
 
 const App = () => {
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -114,7 +76,7 @@ const App = () => {
         {/* <ProductList productData={storeList} onAddItem={addItemToCart} /> */}
         <Route path="/home" element={<Home />} />
         <Route path="/store" element={<Store onAddItem={addItemToCart} />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/about" element={<About />} />
       </Routes>
 
       <footer>

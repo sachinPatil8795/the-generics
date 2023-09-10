@@ -12,9 +12,7 @@ html {
 
 body {
   margin: 0;
-  /* background-color: #0C2340; */
-  /* background-color: rgb(40, 45, 66); */
-  background-color: rgb(34, 37, 48);
-  color: whitesmoke;
+  background-color:#1e2b3f;
+  color: snow;
 }
 

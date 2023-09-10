@@ -5,6 +5,7 @@ import classes from "./ProductList.module.css";
 const ProductList = (props) => {
   return (
     <>
+    <section>
       <h2 className={classes["music-title"]}>Music</h2>
       <div className={classes.container}>
         {props.productData.map((product) => (
@@ -16,6 +17,7 @@ const ProductList = (props) => {
           </div>
         ))}
       </div>
+      </section>
     </>
   );
 };

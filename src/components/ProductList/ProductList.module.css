@@ -1,10 +1,10 @@
 .music-title {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 2.8rem;
+  font-family: cursive;
+  font-size: 2.5rem;
   text-align: center;
   margin: 3rem auto;
 }
+
 .container {
   margin-top: 1rem;
   display: flex;
@@ -17,7 +17,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   margin: 3rem auto;
   align-items: center;
 }

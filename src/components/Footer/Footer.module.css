@@ -1,4 +1,26 @@
 .footer {
-    background-color: rgb(29, 60, 97);
-    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(42, 71, 111); */
+    background-color: slategrey;
+    height: 12rem;
+    margin-top: 4rem;
+}
+
+.footer h1 {
+    font-size: 3.5rem;
+    color: #1f1f1f;
+}
+
+.links img {
+    margin: 1rem;
+    width: 50px;
+}
+.links img:hover {
+    transform: scale(0.9);
+}
+.copyright {
+    float: left;
+    margin: 5rem 0;
 }
