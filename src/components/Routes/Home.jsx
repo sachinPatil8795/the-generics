@@ -105,7 +105,7 @@ const Home = () => {
   return (
     <div className={classes.home}>
       <div className={classes.tourList}>
-      <h2 className={classes.heading}>Tours</h2>
+      <h2 className={classes.heading}>Events</h2>
         {tourData.map((tour, index) => (
           <div className={classes.tourItem} key={index}>
             <span className={classes.date}>{tour.date}</span>
