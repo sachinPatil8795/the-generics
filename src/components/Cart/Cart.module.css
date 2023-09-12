@@ -98,3 +98,9 @@
 .btn button:active {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .cart {
+    width: 80%;
+  }
+}

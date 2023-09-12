@@ -38,24 +38,24 @@ const storeList = [
       imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Shirt.png",
       quantity: 4,
     },
-    {
-      title: "Blue Color",
-      price: 19.99,
-      imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%204.png",
-      quantity: 4,
-    },
-    {
-      title: "Colors",
-      price: 12.99,
-      imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
-      quantity: 2,
-    },
-    {
-      title: "Black and White Colors",
-      price: 14.99,
-      imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
-      quantity: 8,
-    },
+    // {
+    //   title: "Blue Color",
+    //   price: 19.99,
+    //   imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%204.png",
+    //   quantity: 4,
+    // },
+    // {
+    //   title: "Colors",
+    //   price: 12.99,
+    //   imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
+    //   quantity: 2,
+    // },
+    // {
+    //   title: "Black and White Colors",
+    //   price: 14.99,
+    //   imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
+    //   quantity: 8,
+    // },
    
   ];
 

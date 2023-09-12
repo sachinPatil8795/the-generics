@@ -12,7 +12,8 @@ html {
 
 body {
   margin: 0;
-  background-color:#1e2b3f;
+  /* background-color:rgb(58, 71, 100) ; */
+  background-color: rgb(7, 76, 105);
   color: snow;
 }
 

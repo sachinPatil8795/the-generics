@@ -44,3 +44,18 @@ li.active a {
   height: 15rem;
   background-color: slategray;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li a {
+    margin: 10px 0;
+  }
+}

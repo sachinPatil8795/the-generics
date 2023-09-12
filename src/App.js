@@ -13,8 +13,6 @@ import Contact from "./components/Routes/Contact";
 
 export const ModalContext = React.createContext();
 
-
-
 const App = () => {
   const [cartIsShown, setCartIsShown] = useState(false);
   const [cartItems, setCartItems] = useState([]);
@@ -45,7 +43,6 @@ const App = () => {
       return updatedItems;
     });
   };
-
   const showCartItemHandler = () => {
     setCartIsShown(true);
   };

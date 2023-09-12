@@ -1,5 +1,5 @@
 .home {
-  background-image: url("bandImg3.jpg");
+  background-image: url("bandImg.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -66,4 +66,14 @@
 
 .buyBtn:hover {
   background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .tourItem {
+    margin: 1rem 0;
+  }
+
+  .tourList {
+    width: 90%;
+  }
 }

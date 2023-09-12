@@ -1,4 +1,4 @@
-.form-control {
+/* .form-control {
     margin-top: 5rem;
     width: 100%;
     display: flex;
@@ -7,6 +7,13 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+img {
+    width: 50%;
+    top: 50%;
+    border-radius: 10px;
+}
+
 .form-control h2 {
     font-family: cursive;
     margin-bottom: 3rem;
@@ -23,4 +30,78 @@
     width: 100%;
     margin: 1rem;
     padding: 6px;
+} */
+
+/* Contact.module.css */
+
+.form-container {
+  color: #1f1f1f;
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  color: snow;
+  background-color: #173772;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-container button:hover {
+  background-color: rgb(41, 72, 143);
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .form-group input {
+    padding: 8px;
+  }
+
+  .contact-image {
+    width: 100%;
+  }
 }
