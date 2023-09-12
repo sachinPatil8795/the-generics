@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Routes/Home";
 import Store from "./components/Routes/Store";
 import About from "./components/Routes/About";
+import Contact from "./components/Routes/Contact";
 
 export const ModalContext = React.createContext();
 
@@ -77,6 +78,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/store" element={<Store onAddItem={addItemToCart} />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <footer>
