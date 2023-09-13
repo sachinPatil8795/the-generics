@@ -39,8 +39,9 @@ img {
   max-width: 400px;
   margin: 3rem auto;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #172e42;
   border-radius: 10px;
+  color: whitesmoke;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,6 +50,7 @@ img {
 }
 
 .form-group label {
+  margin-bottom: 1rem;
   display: block;
   font-weight: bold;
 }
@@ -81,14 +83,18 @@ img {
   margin-top: 1rem;
   text-align: center;
   color: snow;
-  background-color: #173772;
+  background-color: rgb(7, 108, 210);
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
 }
 
 .form-container button:hover {
-  background-color: rgb(41, 72, 143);
+  background-color: dodgerblue;
+}
+
+.form-container button:active {
+  transform: scale(0.99);
 }
 
 @media (max-width: 768px) {

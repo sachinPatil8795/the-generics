@@ -18,20 +18,23 @@ ul {
   text-decoration: none;
 }
 
-li a {
+.header a {
   color: whitesmoke;
   font-size: large;
   margin: 0 20px;
   text-transform: uppercase;
   text-decoration: none;
 }
-li a:hover {
+
+.header a:hover,
+.header a:active,
+.header a.active {
   color: dodgerblue;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #195198;
 }
 
-li.active a {
-  color: dodgerblue;
-}
+
 
 .title {
   display: flex;

@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
   return (
@@ -9,16 +9,24 @@ const Header = (props) => {
       <header className={classes.header}>
         <ul>
           <li>
-            <Link to="/home">Home</Link>
-          </li>
-          <li className={classes.active}>
-            <Link to="/store">Store</Link>
-          </li>
-          <li>
-            <Link to="/about">About Us</Link>
+            <NavLink activeclassname={classes.active} to="/home">
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <NavLink activeclassname={classes.active} to="/store">
+              Store
+            </NavLink>
+          </li>
+          <li>
+            <NavLink activeclassname={classes.active} to="/about">
+              About Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink activeclassname={classes.active} to="/contact">
+              Contact Us
+            </NavLink>
           </li>
         </ul>
         <HeaderCartButton cartItems={props.cartItems} />
