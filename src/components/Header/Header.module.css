@@ -47,10 +47,11 @@ ul {
 
 .login-btn {
   width: auto;
-  padding: 5px 5px;
-  
-  background-color: #195198;
+  padding: 5px 10px;
+  background-color: rgb(26, 109, 177);
   color: whitesmoke;
+  border: none;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {

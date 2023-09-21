@@ -11,6 +11,7 @@ import Store from "./components/Routes/Store/Store";
 import About from "./components/Routes/About/About";
 import Contact from "./components/Routes/Contact/Contact";
 import ProductDetails from "./components/Routes/Details/ProductDetails";
+import AuthForm from "./components/Routes/Auth/AuthForm";
 
 export const ModalContext = React.createContext();
 
@@ -128,6 +129,7 @@ const App = () => {
         />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/authform" element={<AuthForm />}/>
       </Routes>
 
       <footer>
