@@ -28,7 +28,7 @@ const ProductList = (props) => {
               </Link>
               <h2>{product.title}</h2>
               <p>${product.price.toFixed(2)}</p>
-              <button onClick={() => handleAddItemClick(product)}>+ Add</button>
+              <button onClick={() => handleAddItemClick(product)}>ADD TO CART</button>
             </div>
           ))}
         </div>

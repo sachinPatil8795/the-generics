@@ -17,7 +17,7 @@ const ProductDetails = (props) => {
   };
 
   const { productId } = useParams();
-  const product = props.products.find((p) => p.id === productId);
+  const product = props.products.find((item) => item.id === productId);
 
   if (!product) {
     return <p>Product not found</p>;
@@ -26,13 +26,16 @@ const ProductDetails = (props) => {
   return (
     <>
       <section>
+        <h2 className={classes.header}>Product Details</h2>
         <div className={classes.productDetail}>
           <img src={product.imageUrl} alt={product.title} />
           <div className={classes.productInfo}>
             <h2>{product.title}</h2>
             <p>Price: ${product.price.toFixed(2)}</p>
-            <p>Quantity: {product.quantity}</p>
-            <button onClick={() => handleAddItemClick(product)}>+ Add</button>
+            {/* <p>Quantity: {product.quantity}</p> */}
+            <button onClick={() => handleAddItemClick(product)}>
+              ADD TO CART
+            </button>
             <p>
               Description: Lorem ipsum dolor sit amet, consectetur adipiscing
               elit.

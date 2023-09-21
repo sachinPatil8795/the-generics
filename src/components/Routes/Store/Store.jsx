@@ -1,5 +1,6 @@
 import React from "react";
-import ProductList from "../ProductList/ProductList";
+import ProductList from "../../ProductList/ProductList";
+
 
 const storeList = [
   {

@@ -6,11 +6,11 @@ import Cart from "./components/Cart/Cart";
 import { CartContext } from "./store/cart-context";
 import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Routes/Home";
-import Store from "./components/Routes/Store";
-import About from "./components/Routes/About";
-import Contact from "./components/Routes/Contact";
-import ProductDetails from "./components/Routes/ProductDetails";
+import Home from "./components/Routes/Home/Home";
+import Store from "./components/Routes/Store/Store";
+import About from "./components/Routes/About/About";
+import Contact from "./components/Routes/Contact/Contact";
+import ProductDetails from "./components/Routes/Details/ProductDetails";
 
 export const ModalContext = React.createContext();
 
@@ -59,7 +59,6 @@ const storeList = [
   },
 ];
 
-
 const App = () => {
   const [cartIsShown, setCartIsShown] = useState(false);
   const [cartItems, setCartItems] = useState([]);
@@ -68,7 +67,7 @@ const App = () => {
     setCartItems((prevItems) => {
       // Check if the item is already in the cart
       const existingItemIndex = prevItems.findIndex(
-        (item) => item.title === product.title
+        (item) => item.id === product.id
       );
 
       if (existingItemIndex !== -1) {
@@ -118,9 +117,15 @@ const App = () => {
       </ModalContext.Provider>
 
       <Routes>
+        <Route path="/" element={<Store onAddItem={addItemToCart} />} />
         <Route path="/home" element={<Home />} />
         <Route path="/store" element={<Store onAddItem={addItemToCart} />} />
-        <Route path="/store/:productId" element={<ProductDetails products={storeList} onAddItem={addItemToCart}/>} />
+        <Route
+          path="/store/:productId"
+          element={
+            <ProductDetails products={storeList} onAddItem={addItemToCart} />
+          }
+        />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

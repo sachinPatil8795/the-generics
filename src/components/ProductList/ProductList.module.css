@@ -39,10 +39,10 @@ p {
 }
 
 .product button {
-  font-size: large;
-  width: 20%;
+  /* font-size: large; */
+  /* width: 100%; */
   margin: 0.9rem;
-  padding: 5px 15px;
+  padding: 10px 20px;
   border: none;
   color: aliceblue;
   background-color: rgb(47, 91, 167);

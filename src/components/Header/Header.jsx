@@ -28,6 +28,11 @@ const Header = (props) => {
               Contact Us
             </NavLink>
           </li>
+          <li>
+            <NavLink activeclassname={classes.active} to="/authform">
+            <button className={classes['login-btn']}>Login</button>
+            </NavLink>
+          </li>
         </ul>
         <HeaderCartButton cartItems={props.cartItems} />
       </header>
