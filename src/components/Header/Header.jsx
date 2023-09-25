@@ -28,13 +28,12 @@ const Header = (props) => {
               Contact Us
             </NavLink>
           </li>
-          <li>
-            <NavLink activeclassname={classes.active} to="/authform">
-              <button className={classes["login-btn"]}>Login</button>
-            </NavLink>
-          </li>
         </ul>
         <HeaderCartButton cartItems={props.cartItems} />
+
+        <NavLink activeclassname={classes.active} to="/authform">
+          <button className={classes["login-btn"]}>Login</button>
+        </NavLink>
       </header>
       <div className={classes.title}>
         <h1>The Generics</h1>

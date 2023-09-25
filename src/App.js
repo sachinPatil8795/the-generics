@@ -129,7 +129,7 @@ const App = () => {
         />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/authform" element={<AuthForm />}/>
+        <Route path="/authform" element={<AuthForm />} />
       </Routes>
 
       <footer>
